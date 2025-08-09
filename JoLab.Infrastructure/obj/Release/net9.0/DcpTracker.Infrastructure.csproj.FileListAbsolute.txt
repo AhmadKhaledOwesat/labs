@@ -1,0 +1,17 @@
+C:\Projects\repos\repos\DcpTracker.Infrastructure\bin\Release\net9.0\DcpTracker.Infrastructure.deps.json
+C:\Projects\repos\repos\DcpTracker.Infrastructure\bin\Release\net9.0\DcpTracker.Infrastructure.runtimeconfig.json
+C:\Projects\repos\repos\DcpTracker.Infrastructure\bin\Release\net9.0\DcpTracker.Infrastructure.dll
+C:\Projects\repos\repos\DcpTracker.Infrastructure\bin\Release\net9.0\DcpTracker.Infrastructure.pdb
+C:\Projects\repos\repos\DcpTracker.Infrastructure\bin\Release\net9.0\DcpTracker.Domain.dll
+C:\Projects\repos\repos\DcpTracker.Infrastructure\bin\Release\net9.0\DcpTracker.Domain.pdb
+C:\Projects\repos\repos\DcpTracker.Infrastructure\obj\Release\net9.0\DcpTracker.Infrastructure.csproj.AssemblyReference.cache
+C:\Projects\repos\repos\DcpTracker.Infrastructure\obj\Release\net9.0\DcpTracker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\repos\repos\DcpTracker.Infrastructure\obj\Release\net9.0\DcpTracker.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\repos\repos\DcpTracker.Infrastructure\obj\Release\net9.0\DcpTracker.Infrastructure.AssemblyInfo.cs
+C:\Projects\repos\repos\DcpTracker.Infrastructure\obj\Release\net9.0\DcpTracker.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\repos\repos\DcpTracker.Infrastructure\obj\Release\net9.0\DcpTrack.280AC443.Up2Date
+C:\Projects\repos\repos\DcpTracker.Infrastructure\obj\Release\net9.0\DcpTracker.Infrastructure.dll
+C:\Projects\repos\repos\DcpTracker.Infrastructure\obj\Release\net9.0\refint\DcpTracker.Infrastructure.dll
+C:\Projects\repos\repos\DcpTracker.Infrastructure\obj\Release\net9.0\DcpTracker.Infrastructure.pdb
+C:\Projects\repos\repos\DcpTracker.Infrastructure\obj\Release\net9.0\DcpTracker.Infrastructure.genruntimeconfig.cache
+C:\Projects\repos\repos\DcpTracker.Infrastructure\obj\Release\net9.0\ref\DcpTracker.Infrastructure.dll

@@ -1,0 +1,17 @@
+C:\Users\smart tech\source\repos\BlueBalance.Application\bin\Release\net9.0\BlueBalance.Application.deps.json
+C:\Users\smart tech\source\repos\BlueBalance.Application\bin\Release\net9.0\BlueBalance.Application.dll
+C:\Users\smart tech\source\repos\BlueBalance.Application\bin\Release\net9.0\BlueBalance.Application.pdb
+C:\Users\smart tech\source\repos\BlueBalance.Application\bin\Release\net9.0\BlueBalance.Domain.dll
+C:\Users\smart tech\source\repos\BlueBalance.Application\bin\Release\net9.0\BlueBalance.Infrastructure.dll
+C:\Users\smart tech\source\repos\BlueBalance.Application\bin\Release\net9.0\BlueBalance.Domain.pdb
+C:\Users\smart tech\source\repos\BlueBalance.Application\bin\Release\net9.0\BlueBalance.Infrastructure.pdb
+C:\Users\smart tech\source\repos\BlueBalance.Application\obj\Release\net9.0\BlueBalance.Application.csproj.AssemblyReference.cache
+C:\Users\smart tech\source\repos\BlueBalance.Application\obj\Release\net9.0\BlueBalance.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smart tech\source\repos\BlueBalance.Application\obj\Release\net9.0\BlueBalance.Application.AssemblyInfoInputs.cache
+C:\Users\smart tech\source\repos\BlueBalance.Application\obj\Release\net9.0\BlueBalance.Application.AssemblyInfo.cs
+C:\Users\smart tech\source\repos\BlueBalance.Application\obj\Release\net9.0\BlueBalance.Application.csproj.CoreCompileInputs.cache
+C:\Users\smart tech\source\repos\BlueBalance.Application\obj\Release\net9.0\BlueBala.09273604.Up2Date
+C:\Users\smart tech\source\repos\BlueBalance.Application\obj\Release\net9.0\BlueBalance.Application.dll
+C:\Users\smart tech\source\repos\BlueBalance.Application\obj\Release\net9.0\refint\BlueBalance.Application.dll
+C:\Users\smart tech\source\repos\BlueBalance.Application\obj\Release\net9.0\BlueBalance.Application.pdb
+C:\Users\smart tech\source\repos\BlueBalance.Application\obj\Release\net9.0\ref\BlueBalance.Application.dll

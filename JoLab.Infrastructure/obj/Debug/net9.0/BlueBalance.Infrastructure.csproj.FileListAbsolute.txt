@@ -1,0 +1,34 @@
+C:\Users\smart tech\source\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBalance.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\smart tech\source\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBalance.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smart tech\source\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBalance.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\smart tech\source\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBalance.Infrastructure.AssemblyInfo.cs
+C:\Users\smart tech\source\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBalance.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\smart tech\source\repos\BlueBalance.Infrastructure\bin\Debug\net9.0\BlueBalance.Infrastructure.deps.json
+C:\Users\smart tech\source\repos\BlueBalance.Infrastructure\bin\Debug\net9.0\BlueBalance.Infrastructure.runtimeconfig.json
+C:\Users\smart tech\source\repos\BlueBalance.Infrastructure\bin\Debug\net9.0\BlueBalance.Infrastructure.dll
+C:\Users\smart tech\source\repos\BlueBalance.Infrastructure\bin\Debug\net9.0\BlueBalance.Infrastructure.pdb
+C:\Users\smart tech\source\repos\BlueBalance.Infrastructure\bin\Debug\net9.0\BlueBalance.Domain.dll
+C:\Users\smart tech\source\repos\BlueBalance.Infrastructure\bin\Debug\net9.0\BlueBalance.Domain.pdb
+C:\Users\smart tech\source\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBala.4A339686.Up2Date
+C:\Users\smart tech\source\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBalance.Infrastructure.dll
+C:\Users\smart tech\source\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\refint\BlueBalance.Infrastructure.dll
+C:\Users\smart tech\source\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBalance.Infrastructure.pdb
+C:\Users\smart tech\source\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBalance.Infrastructure.genruntimeconfig.cache
+C:\Users\smart tech\source\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\ref\BlueBalance.Infrastructure.dll
+C:\Projects\repos\repos\BlueBalance.Infrastructure\bin\Debug\net9.0\BlueBalance.Infrastructure.deps.json
+C:\Projects\repos\repos\BlueBalance.Infrastructure\bin\Debug\net9.0\BlueBalance.Infrastructure.runtimeconfig.json
+C:\Projects\repos\repos\BlueBalance.Infrastructure\bin\Debug\net9.0\BlueBalance.Infrastructure.dll
+C:\Projects\repos\repos\BlueBalance.Infrastructure\bin\Debug\net9.0\BlueBalance.Infrastructure.pdb
+C:\Projects\repos\repos\BlueBalance.Infrastructure\bin\Debug\net9.0\BlueBalance.Domain.dll
+C:\Projects\repos\repos\BlueBalance.Infrastructure\bin\Debug\net9.0\BlueBalance.Domain.pdb
+C:\Projects\repos\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBalance.Infrastructure.csproj.AssemblyReference.cache
+C:\Projects\repos\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBalance.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\repos\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBalance.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\repos\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBalance.Infrastructure.AssemblyInfo.cs
+C:\Projects\repos\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBalance.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\repos\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBala.4A339686.Up2Date
+C:\Projects\repos\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBalance.Infrastructure.dll
+C:\Projects\repos\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\refint\BlueBalance.Infrastructure.dll
+C:\Projects\repos\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBalance.Infrastructure.pdb
+C:\Projects\repos\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\BlueBalance.Infrastructure.genruntimeconfig.cache
+C:\Projects\repos\repos\BlueBalance.Infrastructure\obj\Debug\net9.0\ref\BlueBalance.Infrastructure.dll

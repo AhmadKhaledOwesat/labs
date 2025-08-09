@@ -1,0 +1,24 @@
+C:\Users\smart tech\source\repos\BlueBalance.Domain\bin\Debug\net9.0\BlueBalance.Domain.deps.json
+C:\Users\smart tech\source\repos\BlueBalance.Domain\bin\Debug\net9.0\BlueBalance.Domain.dll
+C:\Users\smart tech\source\repos\BlueBalance.Domain\bin\Debug\net9.0\BlueBalance.Domain.pdb
+C:\Users\smart tech\source\repos\BlueBalance.Domain\obj\Debug\net9.0\BlueBalance.Domain.csproj.AssemblyReference.cache
+C:\Users\smart tech\source\repos\BlueBalance.Domain\obj\Debug\net9.0\BlueBalance.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smart tech\source\repos\BlueBalance.Domain\obj\Debug\net9.0\BlueBalance.Domain.AssemblyInfoInputs.cache
+C:\Users\smart tech\source\repos\BlueBalance.Domain\obj\Debug\net9.0\BlueBalance.Domain.AssemblyInfo.cs
+C:\Users\smart tech\source\repos\BlueBalance.Domain\obj\Debug\net9.0\BlueBalance.Domain.csproj.CoreCompileInputs.cache
+C:\Users\smart tech\source\repos\BlueBalance.Domain\obj\Debug\net9.0\BlueBalance.Domain.dll
+C:\Users\smart tech\source\repos\BlueBalance.Domain\obj\Debug\net9.0\refint\BlueBalance.Domain.dll
+C:\Users\smart tech\source\repos\BlueBalance.Domain\obj\Debug\net9.0\BlueBalance.Domain.pdb
+C:\Users\smart tech\source\repos\BlueBalance.Domain\obj\Debug\net9.0\ref\BlueBalance.Domain.dll
+C:\Projects\repos\repos\BlueBalance.Domain\bin\Debug\net9.0\BlueBalance.Domain.deps.json
+C:\Projects\repos\repos\BlueBalance.Domain\bin\Debug\net9.0\BlueBalance.Domain.dll
+C:\Projects\repos\repos\BlueBalance.Domain\bin\Debug\net9.0\BlueBalance.Domain.pdb
+C:\Projects\repos\repos\BlueBalance.Domain\obj\Debug\net9.0\BlueBalance.Domain.csproj.AssemblyReference.cache
+C:\Projects\repos\repos\BlueBalance.Domain\obj\Debug\net9.0\BlueBalance.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\repos\repos\BlueBalance.Domain\obj\Debug\net9.0\BlueBalance.Domain.AssemblyInfoInputs.cache
+C:\Projects\repos\repos\BlueBalance.Domain\obj\Debug\net9.0\BlueBalance.Domain.AssemblyInfo.cs
+C:\Projects\repos\repos\BlueBalance.Domain\obj\Debug\net9.0\BlueBalance.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\repos\repos\BlueBalance.Domain\obj\Debug\net9.0\BlueBalance.Domain.dll
+C:\Projects\repos\repos\BlueBalance.Domain\obj\Debug\net9.0\refint\BlueBalance.Domain.dll
+C:\Projects\repos\repos\BlueBalance.Domain\obj\Debug\net9.0\BlueBalance.Domain.pdb
+C:\Projects\repos\repos\BlueBalance.Domain\obj\Debug\net9.0\ref\BlueBalance.Domain.dll

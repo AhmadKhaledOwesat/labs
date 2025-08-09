@@ -1,0 +1,17 @@
+C:\Projects\repos\repos\DcpTracker.Application\bin\Debug\net9.0\DcpTracker.Application.deps.json
+C:\Projects\repos\repos\DcpTracker.Application\bin\Debug\net9.0\DcpTracker.Application.dll
+C:\Projects\repos\repos\DcpTracker.Application\bin\Debug\net9.0\DcpTracker.Application.pdb
+C:\Projects\repos\repos\DcpTracker.Application\bin\Debug\net9.0\DcpTracker.Domain.dll
+C:\Projects\repos\repos\DcpTracker.Application\bin\Debug\net9.0\DcpTracker.Infrastructure.dll
+C:\Projects\repos\repos\DcpTracker.Application\bin\Debug\net9.0\DcpTracker.Domain.pdb
+C:\Projects\repos\repos\DcpTracker.Application\bin\Debug\net9.0\DcpTracker.Infrastructure.pdb
+C:\Projects\repos\repos\DcpTracker.Application\obj\Debug\net9.0\DcpTracker.Application.csproj.AssemblyReference.cache
+C:\Projects\repos\repos\DcpTracker.Application\obj\Debug\net9.0\DcpTracker.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\repos\repos\DcpTracker.Application\obj\Debug\net9.0\DcpTracker.Application.AssemblyInfoInputs.cache
+C:\Projects\repos\repos\DcpTracker.Application\obj\Debug\net9.0\DcpTracker.Application.AssemblyInfo.cs
+C:\Projects\repos\repos\DcpTracker.Application\obj\Debug\net9.0\DcpTracker.Application.csproj.CoreCompileInputs.cache
+C:\Projects\repos\repos\DcpTracker.Application\obj\Debug\net9.0\DcpTrack.D1C219C4.Up2Date
+C:\Projects\repos\repos\DcpTracker.Application\obj\Debug\net9.0\DcpTracker.Application.dll
+C:\Projects\repos\repos\DcpTracker.Application\obj\Debug\net9.0\refint\DcpTracker.Application.dll
+C:\Projects\repos\repos\DcpTracker.Application\obj\Debug\net9.0\DcpTracker.Application.pdb
+C:\Projects\repos\repos\DcpTracker.Application\obj\Debug\net9.0\ref\DcpTracker.Application.dll
