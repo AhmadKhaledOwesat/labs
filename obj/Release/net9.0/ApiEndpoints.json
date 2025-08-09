@@ -1,0 +1,3583 @@
+[
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.AppUsers, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.AppUserDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.AppUserFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/AppUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.AppUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.AppUsers, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.AppUserDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.AppUserFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/AppUser/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.AppUserDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.AppUsers, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.AppUserDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.AppUserFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/AppUser/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.AppUserDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.AppUserController",
+    "Method": "LoginAsync",
+    "RelativePath": "api/AppUser/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "BlueBalance.Application.Dto.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.AppUserDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.AppUserController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/AppUser/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.AppUserFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.AppUserDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.AppUsers, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.AppUserDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.AppUserFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/AppUser/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.AppUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.AppUserAddress, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.AppUserAddressDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.AppUserAddressFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/AppUserAddress",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.AppUserAddressDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.AppUserAddress, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.AppUserAddressDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.AppUserAddressFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/AppUserAddress/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.AppUserAddressDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.AppUserAddress, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.AppUserAddressDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.AppUserAddressFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/AppUserAddress/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.AppUserAddressDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.AppUserAddressController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/AppUserAddress/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.AppUserAddressFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.AppUserAddressDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.AppUserAddress, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.AppUserAddressDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.AppUserAddressFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/AppUserAddress/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.AppUserAddressDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.AppUserStatus, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.AppUserStatusDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.AppUserStatusFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/AppUserStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.AppUserStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.AppUserStatus, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.AppUserStatusDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.AppUserStatusFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/AppUserStatus/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.AppUserStatusDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.AppUserStatus, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.AppUserStatusDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.AppUserStatusFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/AppUserStatus/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.AppUserStatusDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.AppUserStatusController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/AppUserStatus/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.AppUserStatusFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.AppUserStatusDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.AppUserStatus, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.AppUserStatusDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.AppUserStatusFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/AppUserStatus/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.AppUserStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.City, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.CityDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.CityFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/City",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.CityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.City, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.CityDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.CityFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/City/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.CityDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.City, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.CityDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.CityFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/City/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.CityDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.CityController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/City/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.CityFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.CityDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.City, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.CityDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.CityFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/City/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.CityDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Country, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.CountryDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.CountryFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/Country",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.CountryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Country, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.CountryDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.CountryFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Country/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.CountryDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Country, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.CountryDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.CountryFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Country/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.CountryDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.CountryController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Country/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.CountryFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.CountryDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Country, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.CountryDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.CountryFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Country/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.CountryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Faq, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.FaqDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.FaqFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/Faq",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.FaqDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Faq, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.FaqDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.FaqFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Faq/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.FaqDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Faq, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.FaqDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.FaqFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Faq/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.FaqDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.FaqController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Faq/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.FaqFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.FaqDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Faq, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.FaqDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.FaqFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Faq/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.FaqDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Governorate, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.GovernorateDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.GovernorateFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/Governorate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.GovernorateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Governorate, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.GovernorateDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.GovernorateFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Governorate/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.GovernorateDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Governorate, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.GovernorateDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.GovernorateFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Governorate/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.GovernorateDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.GovernorateController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Governorate/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.GovernorateFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.GovernorateDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Governorate, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.GovernorateDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.GovernorateFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Governorate/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.GovernorateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Inquiry, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.InquiryDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.InquiryFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/Inquiry",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.InquiryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Inquiry, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.InquiryDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.InquiryFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Inquiry/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.InquiryDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Inquiry, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.InquiryDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.InquiryFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Inquiry/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.InquiryDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.InquiryController",
+    "Method": "MoveToAppUserAsync",
+    "RelativePath": "api/Inquiry/move/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.InquiryController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Inquiry/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.InquiryFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.InquiryDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Inquiry, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.InquiryDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.InquiryFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Inquiry/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.InquiryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.MainService, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.MainServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.MainServiceFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/MainService",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.MainServiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.MainService, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.MainServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.MainServiceFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/MainService/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.MainServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.MainService, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.MainServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.MainServiceFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/MainService/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.MainServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.MainServiceController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/MainService/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.MainServiceFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.MainServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.MainService, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.MainServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.MainServiceFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/MainService/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.MainServiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.MainSlider, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.MainSliderDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.MainSliderFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/MainSlider",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.MainSliderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.MainSlider, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.MainSliderDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.MainSliderFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/MainSlider/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.MainSliderDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.MainSlider, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.MainSliderDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.MainSliderFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/MainSlider/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.MainSliderDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.MainSliderController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/MainSlider/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.MainSliderFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.MainSliderDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.MainSlider, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.MainSliderDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.MainSliderFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/MainSlider/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.MainSliderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.MainSubServiceMapping, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.MainSubServiceMappingDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.MainSubServiceMappingFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/MainSubServiceMapping",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.MainSubServiceMappingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.MainSubServiceMapping, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.MainSubServiceMappingDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.MainSubServiceMappingFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/MainSubServiceMapping/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.MainSubServiceMappingDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.MainSubServiceMapping, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.MainSubServiceMappingDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.MainSubServiceMappingFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/MainSubServiceMapping/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.MainSubServiceMappingDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.MainSubServiceMappingController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/MainSubServiceMapping/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.MainSubServiceMappingFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.MainSubServiceMappingDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.MainSubServiceMapping, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.MainSubServiceMappingDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.MainSubServiceMappingFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/MainSubServiceMapping/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.MainSubServiceMappingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Privilege, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.PrivilegeDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.PrivilegeFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/Privilege",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.PrivilegeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Privilege, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.PrivilegeDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.PrivilegeFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Privilege/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.PrivilegeDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Privilege, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.PrivilegeDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.PrivilegeFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Privilege/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.PrivilegeDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.PrivilegeController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Privilege/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.PrivilegeFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.PrivilegeDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Privilege, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.PrivilegeDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.PrivilegeFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Privilege/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.PrivilegeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Rate, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.RateDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.RateFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/Rate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.RateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Rate, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.RateDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.RateFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Rate/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.RateDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Rate, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.RateDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.RateFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Rate/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.RateDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.RateController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Rate/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.RateFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.RateDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Rate, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.RateDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.RateFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Rate/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.RateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Report, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.ReportDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.ReportFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/Report",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.ReportDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Report, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.ReportDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.ReportFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Report/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.ReportDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Report, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.ReportDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.ReportFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Report/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.ReportDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.ReportController",
+    "Method": "ExecuteReportAsync",
+    "RelativePath": "api/Report/excute/{query}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.ReportController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Report/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.ReportFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.ReportDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Report, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.ReportDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.ReportFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Report/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.ReportDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.ReportParameter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.ReportParameterDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.ReportParameterFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/ReportParameter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.ReportParameterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.ReportParameter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.ReportParameterDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.ReportParameterFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/ReportParameter/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.ReportParameterDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.ReportParameter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.ReportParameterDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.ReportParameterFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/ReportParameter/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.ReportParameterDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.ReportParameterController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/ReportParameter/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.ReportParameterFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.ReportParameterDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.ReportParameter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.ReportParameterDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.ReportParameterFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/ReportParameter/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.ReportParameterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.RequestStatus, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.RequestStatusDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.RequestStatusFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/RequestStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.RequestStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.RequestStatus, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.RequestStatusDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.RequestStatusFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/RequestStatus/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.RequestStatusDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.RequestStatus, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.RequestStatusDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.RequestStatusFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/RequestStatus/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.RequestStatusDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.RequestStatusController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/RequestStatus/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.RequestStatusFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.RequestStatusDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.RequestStatus, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.RequestStatusDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.RequestStatusFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/RequestStatus/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.RequestStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Role, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.RoleDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.RoleFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/Role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.RoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Role, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.RoleDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.RoleFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Role/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.RoleDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Role, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.RoleDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.RoleFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Role/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.RoleDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.RoleController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Role/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.RoleFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.RoleDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Role, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.RoleDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.RoleFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Role/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.RoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.RolePrivilege, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.RolePrivilegeDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.RolePrivilegeFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/RolePrivilege",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.RolePrivilegeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.RolePrivilege, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.RolePrivilegeDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.RolePrivilegeFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/RolePrivilege/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.RolePrivilegeDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.RolePrivilege, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.RolePrivilegeDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.RolePrivilegeFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/RolePrivilege/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.RolePrivilegeDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.RolePrivilegeController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/RolePrivilege/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.RolePrivilegeFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.RolePrivilegeDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.RolePrivilege, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.RolePrivilegeDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.RolePrivilegeFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/RolePrivilege/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.RolePrivilegeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.ServiceRequest, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.ServiceRequestDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.ServiceRequestFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/ServiceRequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.ServiceRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.ServiceRequest, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.ServiceRequestDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.ServiceRequestFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/ServiceRequest/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.ServiceRequestDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.ServiceRequest, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.ServiceRequestDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.ServiceRequestFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/ServiceRequest/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.ServiceRequestDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.ServiceRequestController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/ServiceRequest/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.ServiceRequestFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.ServiceRequestDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.ServiceRequest, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.ServiceRequestDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.ServiceRequestFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/ServiceRequest/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.ServiceRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.ServiceRequestResponse, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.ServiceRequestResponseDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.ServiceRequestResponseFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/ServiceRequestResponse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.ServiceRequestResponseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.ServiceRequestResponse, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.ServiceRequestResponseDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.ServiceRequestResponseFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/ServiceRequestResponse/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.ServiceRequestResponseDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.ServiceRequestResponse, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.ServiceRequestResponseDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.ServiceRequestResponseFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/ServiceRequestResponse/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.ServiceRequestResponseDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.ServiceRequestResponseController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/ServiceRequestResponse/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.ServiceRequestResponseFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.ServiceRequestResponseDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.ServiceRequestResponse, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.ServiceRequestResponseDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.ServiceRequestResponseFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/ServiceRequestResponse/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.ServiceRequestResponseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Setting, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.SettingDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.SettingFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/Setting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.SettingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Setting, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.SettingDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.SettingFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Setting/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.SettingDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Setting, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.SettingDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.SettingFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Setting/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.SettingDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.SettingController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Setting/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.SettingFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.SettingDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Setting, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.SettingDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.SettingFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Setting/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.SettingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.SubService, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.SubServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.SubServiceFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/SubService",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.SubServiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.SubService, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.SubServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.SubServiceFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/SubService/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.SubServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.SubService, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.SubServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.SubServiceFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/SubService/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.SubServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.SubServiceController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/SubService/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.SubServiceFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.SubServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.SubService, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.SubServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.SubServiceFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/SubService/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.SubServiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.SubServiceSlider, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.SubServiceSliderDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.SubServiceSliderFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/SubServiceSlider",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.SubServiceSliderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.SubServiceSlider, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.SubServiceSliderDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.SubServiceSliderFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/SubServiceSlider/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.SubServiceSliderDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.SubServiceSlider, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.SubServiceSliderDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.SubServiceSliderFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/SubServiceSlider/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.SubServiceSliderDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.SubServiceSliderController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/SubServiceSlider/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.SubServiceSliderFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.SubServiceSliderDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.SubServiceSlider, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.SubServiceSliderDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.SubServiceSliderFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/SubServiceSlider/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.SubServiceSliderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.TechnicianService, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.TechnicianServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.TechnicianServiceFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/TechnicianService",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.TechnicianServiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.TechnicianService, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.TechnicianServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.TechnicianServiceFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/TechnicianService/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.TechnicianServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.TechnicianService, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.TechnicianServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.TechnicianServiceFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/TechnicianService/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.TechnicianServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.TechnicianServiceController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/TechnicianService/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.TechnicianServiceFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.TechnicianServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.TechnicianService, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.TechnicianServiceDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.TechnicianServiceFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/TechnicianService/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.TechnicianServiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Tutorial, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.TutorialDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.TutorialFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/Tutorial",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.TutorialDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Tutorial, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.TutorialDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.TutorialFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Tutorial/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.TutorialDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Tutorial, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.TutorialDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.TutorialFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Tutorial/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.TutorialDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.TutorialController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Tutorial/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.TutorialFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.TutorialDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Tutorial, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.TutorialDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.TutorialFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Tutorial/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.TutorialDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Users, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.UsersDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.UserFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.UsersDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Users, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.UsersDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.UserFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.UsersDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Users, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.UsersDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.UserFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/User/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.UsersDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.UserController",
+    "Method": "LoginAsync",
+    "RelativePath": "api/User/login/{userName}/{password}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.UsersDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.UserController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/User/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.UserFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.UsersDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Users, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.UsersDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.UserFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/User/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.UsersDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.UserRole, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.UserRoleDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.UserRoleFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/UserRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.UserRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.UserRole, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.UserRoleDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.UserRoleFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/UserRole/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.UserRoleDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.UserRole, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.UserRoleDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.UserRoleFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/UserRole/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.UserRoleDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.UserRoleController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/UserRole/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.UserRoleFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.UserRoleDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.UserRole, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.UserRoleDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.UserRoleFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/UserRole/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.UserRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Version, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.VersionDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.VersionFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/Version",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.VersionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Version, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.VersionDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.VersionFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Version/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Application.Dto.VersionDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Version, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.VersionDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.VersionFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Version/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Collections.Generic.List\u00601[[BlueBalance.Application.Dto.VersionDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.VersionController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Version/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "BlueBalance.Domain.Entities.Filters.VersionFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[BlueBalance.Domain.Entities.Filters.PageResult\u00601[[BlueBalance.Application.Dto.VersionDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BlueBalance.Controllers.BaseController\u00604[[BlueBalance.Domain.Entities.Version, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[BlueBalance.Application.Dto.VersionDto, BlueBalance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BlueBalance.Domain.Entities.Filters.VersionFilter, BlueBalance.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Version/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BlueBalance.Application.Dto.VersionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlueBalance.Domain.Entities.DcpResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

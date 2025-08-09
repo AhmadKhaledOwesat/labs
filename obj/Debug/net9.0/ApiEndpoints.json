@@ -1,0 +1,1234 @@
+[
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Client, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.ClientDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.ClientFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/Client",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.ClientDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Client, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.ClientDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.ClientFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Client/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Application.Dto.ClientDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Client, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.ClientDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.ClientFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Client/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.ClientController",
+    "Method": "SearchAsync",
+    "RelativePath": "api/Client/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "JoLab.Domain.Entities.Filters.ClientFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Domain.Entities.Filters.PageResult\u00601[[JoLab.Application.Dto.ClientDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Client, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.ClientDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.ClientFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Client/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.ClientDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Privilege, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.PrivilegeDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.PrivilegeFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/Privilege",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.PrivilegeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Privilege, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.PrivilegeDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.PrivilegeFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Privilege/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Application.Dto.PrivilegeDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Privilege, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.PrivilegeDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.PrivilegeFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Privilege/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.PrivilegeController",
+    "Method": "SearchAsync",
+    "RelativePath": "api/Privilege/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "JoLab.Domain.Entities.Filters.PrivilegeFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Domain.Entities.Filters.PageResult\u00601[[JoLab.Application.Dto.PrivilegeDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Privilege, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.PrivilegeDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.PrivilegeFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Privilege/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.PrivilegeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Report, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.ReportDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.ReportFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/Report",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.ReportDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Report, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.ReportDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.ReportFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Report/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Application.Dto.ReportDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Report, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.ReportDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.ReportFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Report/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.ReportController",
+    "Method": "ExecuteReportAsync",
+    "RelativePath": "api/Report/excute/{query}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.ReportController",
+    "Method": "SearchAsync",
+    "RelativePath": "api/Report/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "JoLab.Domain.Entities.Filters.ReportFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Domain.Entities.Filters.PageResult\u00601[[JoLab.Application.Dto.ReportDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Report, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.ReportDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.ReportFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Report/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.ReportDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.ReportParameter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.ReportParameterDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.ReportParameterFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/ReportParameter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.ReportParameterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.ReportParameter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.ReportParameterDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.ReportParameterFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/ReportParameter/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Application.Dto.ReportParameterDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.ReportParameter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.ReportParameterDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.ReportParameterFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/ReportParameter/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.ReportParameterController",
+    "Method": "SearchAsync",
+    "RelativePath": "api/ReportParameter/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "JoLab.Domain.Entities.Filters.ReportParameterFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Domain.Entities.Filters.PageResult\u00601[[JoLab.Application.Dto.ReportParameterDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.ReportParameter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.ReportParameterDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.ReportParameterFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/ReportParameter/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.ReportParameterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Role, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.RoleDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.RoleFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/Role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.RoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Role, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.RoleDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.RoleFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Role/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Application.Dto.RoleDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Role, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.RoleDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.RoleFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Role/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.RoleController",
+    "Method": "SearchAsync",
+    "RelativePath": "api/Role/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "JoLab.Domain.Entities.Filters.RoleFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Domain.Entities.Filters.PageResult\u00601[[JoLab.Application.Dto.RoleDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Role, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.RoleDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.RoleFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Role/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.RoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.RolePrivilege, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.RolePrivilegeDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.RolePrivilegeFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/RolePrivilege",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.RolePrivilegeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.RolePrivilege, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.RolePrivilegeDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.RolePrivilegeFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/RolePrivilege/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Application.Dto.RolePrivilegeDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.RolePrivilege, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.RolePrivilegeDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.RolePrivilegeFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/RolePrivilege/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.RolePrivilegeController",
+    "Method": "SearchAsync",
+    "RelativePath": "api/RolePrivilege/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "JoLab.Domain.Entities.Filters.RolePrivilegeFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Domain.Entities.Filters.PageResult\u00601[[JoLab.Application.Dto.RolePrivilegeDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.RolePrivilege, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.RolePrivilegeDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.RolePrivilegeFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/RolePrivilege/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.RolePrivilegeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Setting, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.SettingDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.SettingFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/Setting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.SettingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Setting, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.SettingDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.SettingFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Setting/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Application.Dto.SettingDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Setting, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.SettingDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.SettingFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Setting/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.SettingController",
+    "Method": "SearchAsync",
+    "RelativePath": "api/Setting/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "JoLab.Domain.Entities.Filters.SettingFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Domain.Entities.Filters.PageResult\u00601[[JoLab.Application.Dto.SettingDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Setting, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.SettingDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.SettingFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Setting/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.SettingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Users, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.UsersDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.UserFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.UsersDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Users, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.UsersDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.UserFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Application.Dto.UsersDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Users, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.UsersDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.UserFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/User/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.UserController",
+    "Method": "LoginAsync",
+    "RelativePath": "api/User/login/{userName}/{password}/{companyCode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "companyCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Application.Dto.UsersDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.UserController",
+    "Method": "SearchAsync",
+    "RelativePath": "api/User/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "JoLab.Domain.Entities.Filters.UserFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Domain.Entities.Filters.PageResult\u00601[[JoLab.Application.Dto.UsersDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.Users, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.UsersDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.UserFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/User/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.UsersDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.UserRole, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.UserRoleDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.UserRoleFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/UserRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.UserRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.UserRole, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.UserRoleDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.UserRoleFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/UserRole/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Application.Dto.UserRoleDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.UserRole, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.UserRoleDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.UserRoleFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/UserRole/delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.UserRoleController",
+    "Method": "SearchAsync",
+    "RelativePath": "api/UserRole/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParameters",
+        "Type": "JoLab.Domain.Entities.Filters.UserRoleFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[JoLab.Domain.Entities.Filters.PageResult\u00601[[JoLab.Application.Dto.UserRoleDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JoLab.Controllers.BaseController\u00604[[JoLab.Domain.Entities.UserRole, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[JoLab.Application.Dto.UserRoleDto, JoLab.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[JoLab.Domain.Entities.Filters.UserRoleFilter, JoLab.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/UserRole/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "JoLab.Application.Dto.UserRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "JoLab.Domain.Entities.ApiResponse\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
