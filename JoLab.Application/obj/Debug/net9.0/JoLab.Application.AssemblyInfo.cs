@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JoLab.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac6c17b8d7cd77bd8092874856ec6bb9a291604e")]
 [assembly: System.Reflection.AssemblyProductAttribute("JoLab.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JoLab.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

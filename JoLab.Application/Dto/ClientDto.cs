@@ -10,7 +10,7 @@ namespace JoLab.Application.Dto
         public string SecondName { get; set; }
         public string ThirdName { get; set; }
         public string SurName { get; set; }
-        public string FullName { get {  return $"{FirstName} {SecondName} {ThirdName} {SurName}"; } }
+        public string FullName { get { return $"{FirstName} {SecondName} {ThirdName} {SurName}"; } }
         public string ProfileImage { get; set; }
         public bool IsPortalUser { get; set; }
         public string MobileNumber { get; set; }
@@ -27,9 +27,9 @@ namespace JoLab.Application.Dto
         public string CountryName { get; set; }
         public string CityName { get; set; }
         public ResultDeliveryType ResultDeliveryType { get; set; }
-      //  public virtual ICollection<ClientFile> ClientFiles { get; set; }
-       // public virtual ICollection<ClientIndicator> ClientIndicators { get; set; }
-      //  public virtual ICollection<InsuranceCompany> InsuranceCompanies { get; set; }
-      //  public virtual ICollection<ClientTest> ClientTests { get; set; }
+        public virtual ICollection<ClientFileDto> ClientFiles { get; set; }
+        public virtual ICollection<ClientIndicatorDto> ClientIndicators { get; set; }
+       //  public virtual ICollection<InsuranceCompany> InsuranceCompanies { get; set; }
+          public virtual ICollection<ClientTestDto> ClientTests { get; set; }
     }
 }

@@ -38,6 +38,23 @@ namespace JoLab.Application.DI
             serviceDescriptors.AddScoped<IReportBll, ReportBll>();
             serviceDescriptors.AddScoped<IReportParameterBll, ReportParameterBll>();
             serviceDescriptors.AddScoped<IClientBll, ClientBll>();
+            serviceDescriptors.AddScoped<ICityBll, CityBll>();
+            serviceDescriptors.AddScoped<IClientFileBll, ClientFileBll>();
+            serviceDescriptors.AddScoped<IClientIndicatorBll, ClientIndicatorBll>();
+            serviceDescriptors.AddScoped<IClientInsuranceBll, ClientInsuranceBll>();
+            serviceDescriptors.AddScoped<IClientTestBll, ClientTestBll>();
+            serviceDescriptors.AddScoped<ICountryBll, CountryBll>();
+            serviceDescriptors.AddScoped<IDoctorBll, DoctorBll>();
+            serviceDescriptors.AddScoped<IIndicatorBll, IndicatorBll>();
+            serviceDescriptors.AddScoped<IInsuranceCompanyBll, InsuranceCompanyBll>();
+            serviceDescriptors.AddScoped<IOrderMasterBll, OrderMasterBll>();
+            serviceDescriptors.AddScoped<IOrderDetailsBll, OrderDetailsBll>();
+            serviceDescriptors.AddScoped<ISpecialtyBll, SpecialtyBll>();
+            serviceDescriptors.AddScoped<ITestBll, TestBll>();
+            serviceDescriptors.AddScoped<ITestInsurancePlanBll, TestInsurancePlanBll>();
+            serviceDescriptors.AddScoped<ITestNormalRangeBll, TestNormalRangeBll>();
+            serviceDescriptors.AddScoped<ITubeTypeBll, TubeTypeBll>();
+
             serviceDescriptors.AddScoped(typeof(IBaseBll<,,>), typeof(BaseBll<,,>));
             serviceDescriptors.AddScoped(typeof(IBaseDal<,,>), typeof(BaseDal<,,>));
             serviceDescriptors.AddScoped(typeof(IEfRepository<,>), typeof(EfRepository<,>));

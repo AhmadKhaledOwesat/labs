@@ -46,3 +46,4 @@ C:\Projects\JoLabProject\JoLab.Domain\obj\Debug\net9.0\JoLab.Domain.dll
 C:\Projects\JoLabProject\JoLab.Domain\obj\Debug\net9.0\refint\JoLab.Domain.dll
 C:\Projects\JoLabProject\JoLab.Domain\obj\Debug\net9.0\JoLab.Domain.pdb
 C:\Projects\JoLabProject\JoLab.Domain\obj\Debug\net9.0\ref\JoLab.Domain.dll
+C:\Projects\JoLabProject\JoLab.Domain\obj\Debug\net9.0\JoLab.Domain.sourcelink.json

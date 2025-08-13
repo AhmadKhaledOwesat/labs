@@ -49,3 +49,4 @@ C:\Projects\JoLabProject\JoLab.Infrastructure\obj\Debug\net9.0\refint\JoLab.Infr
 C:\Projects\JoLabProject\JoLab.Infrastructure\obj\Debug\net9.0\JoLab.Infrastructure.pdb
 C:\Projects\JoLabProject\JoLab.Infrastructure\obj\Debug\net9.0\JoLab.Infrastructure.genruntimeconfig.cache
 C:\Projects\JoLabProject\JoLab.Infrastructure\obj\Debug\net9.0\ref\JoLab.Infrastructure.dll
+C:\Projects\JoLabProject\JoLab.Infrastructure\obj\Debug\net9.0\JoLab.Infrastructure.sourcelink.json

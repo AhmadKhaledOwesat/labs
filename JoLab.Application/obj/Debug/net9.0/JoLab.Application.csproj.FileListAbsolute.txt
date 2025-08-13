@@ -49,3 +49,4 @@ C:\Projects\JoLabProject\JoLab.Application\obj\Debug\net9.0\JoLab.Application.dl
 C:\Projects\JoLabProject\JoLab.Application\obj\Debug\net9.0\refint\JoLab.Application.dll
 C:\Projects\JoLabProject\JoLab.Application\obj\Debug\net9.0\JoLab.Application.pdb
 C:\Projects\JoLabProject\JoLab.Application\obj\Debug\net9.0\ref\JoLab.Application.dll
+C:\Projects\JoLabProject\JoLab.Application\obj\Debug\net9.0\JoLab.Application.sourcelink.json

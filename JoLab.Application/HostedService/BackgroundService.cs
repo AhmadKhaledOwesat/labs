@@ -1,11 +1,9 @@
-﻿using JoLab.Domain.Interfaces;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+﻿using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
 namespace JoLab.Application.HostedService
 {
-    public class BackgroundService(ILogger<BackgroundService> logger, IServiceProvider  serviceScope) : IHostedService, IDisposable
+    public class BackgroundService(ILogger<BackgroundService> logger) : IHostedService, IDisposable
     {
         private Timer _timer;
 
@@ -18,7 +16,7 @@ namespace JoLab.Application.HostedService
 
         private async void DoWork(object state)
         {
-            return;
+            await Task.FromResult(true);
         }
 
         public Task StopAsync(CancellationToken cancellationToken)

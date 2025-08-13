@@ -23,10 +23,10 @@ namespace JoLab.Application.Bll
 
         public override async Task UpdateAsync(Role entity)
         {
-            await HandleRolePrivilages(entity);
+            await HandleRolePrivilege(entity);
             await base.UpdateAsync(entity);
         }
-        private async Task HandleRolePrivilages(Role entity)
+        private async Task HandleRolePrivilege(Role entity)
         {
             Expression<Func<RolePrivilege, bool>> expression = x => x.RoleId == entity.Id;
             List<RolePrivilege> rolePrivileges = await rolePrivilegeBll.FindAllByExpressionAsync(expression);
